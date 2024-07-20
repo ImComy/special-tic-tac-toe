@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap");
+.header {
+  font-family: "LXGW WenKai TC", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.header .title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+.container table .row .th1 {
+  padding: 20px;
+}
+.container table .row .th1 .button1 {
+  font-family: "Lexend", sans-serif;
+  content: "";
+}
+.container table .row .th2 {
+  padding: 20px;
+}
+.container table .row .th2 .button2 {
+  font-family: "Lexend", sans-serif;
+  content: "";
+}
+.container table .row .th3 {
+  padding: 20px;
+}
+.container table .row .th3 .button3 {
+  font-family: "Lexend", sans-serif;
+  content: "";
+}
+.container table .row .th4 {
+  padding: 20px;
+}
+.container table .row .th4 .button4 {
+  font-family: "Lexend", sans-serif;
+  content: "";
+}
+.container table .row .th5 {
+  padding: 20px;
+}
+.container table .row .th5 .button5 {
+  font-family: "Lexend", sans-serif;
+  content: "";
+}
+.container table .row .th6 {
+  padding: 20px;
+}
+.container table .row .th6 .button6 {
+  font-family: "Lexend", sans-serif;
+  content: "";
+}
+.container table .row .th7 {
+  padding: 20px;
+}
+.container table .row .th7 .button7 {
+  font-family: "Lexend", sans-serif;
+  content: "";
+}
+.container table .row .th8 {
+  padding: 20px;
+}
+.container table .row .th8 .button8 {
+  font-family: "Lexend", sans-serif;
+  content: "";
+}
+.container table .row .th9 {
+  padding: 20px;
+}
+.container table .row .th9 .button9 {
+  font-family: "Lexend", sans-serif;
+  content: "";
+}
+.container table .row .th1 {
+  border-bottom: 1px solid gray;
+  border-right: 1px solid gray;
+}
+.container table .row .th2 {
+  border-bottom: 1px solid gray;
+  border-right: 1px solid gray;
+  border-left: 1px solid gray;
+}
+.container table .row .th3 {
+  border-bottom: 1px solid gray;
+  border-left: 1px solid gray;
+}
+.container table .row .th4 {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  border-right: 1px solid gray;
+}
+.container table .row .th5 {
+  border: 1px solid gray;
+}
+.container table .row .th6 {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  border-left: 1px solid gray;
+}
+.container table .row .th7 {
+  border-top: 1px solid gray;
+  border-right: 1px solid gray;
+}
+.container table .row .th8 {
+  border-top: 1px solid gray;
+  border-right: 1px solid gray;
+  border-left: 1px solid gray;
+}
+.container table .row .th9 {
+  border-top: 1px solid gray;
+  border-left: 1px solid gray;
+}/*# sourceMappingURL=sass.css.map */

@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+.header{
+    font-family: "LXGW WenKai TC", cursive;
+    font-weight: 400;
+    font-style: normal;
+    .title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.container{
+    table{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 50px;
+        .row{
+            @for $i from 1 through 9{
+                .th#{$i}{
+                    padding: 20px;
+                    .button#{$i}{
+                        font-family: "Lexend", sans-serif;
+                        content: "";
+                    }
+                }
+            }
+            .th1{
+                border-bottom: 1px solid gray; 
+                border-right: 1px solid gray;
+            }
+            .th2{
+                border-bottom: 1px solid gray; 
+                border-right: 1px solid gray; 
+                border-left: 1px solid gray; 
+            }
+            .th3{
+                border-bottom: 1px solid gray; 
+                border-left: 1px solid gray; 
+            }
+            .th4{
+                border-top: 1px solid gray; 
+                border-bottom: 1px solid gray; 
+                border-right: 1px solid gray; 
+            }
+            .th5{
+                border: 1px solid gray;
+            }
+            .th6{
+                border-top: 1px solid gray; 
+                border-bottom: 1px solid gray; 
+                border-left: 1px solid gray; 
+            }
+            .th7{
+                border-top: 1px solid gray; 
+                border-right: 1px solid gray; 
+            }
+            .th8{
+                border-top: 1px solid gray; 
+                border-right: 1px solid gray; 
+                border-left: 1px solid gray; 
+            }
+            .th9{
+                border-top: 1px solid gray; 
+                border-left: 1px solid gray; 
+            }
+            .reset{
+                display: none;
+            }
+        }
+    }
+}
