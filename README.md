@@ -32,6 +32,3 @@ This is a variation of the traditional Tic-Tac-Toe game where a draw is not poss
 
 Feel free to contribute to this project by opening issues or submitting pull requests.
 
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
